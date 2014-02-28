@@ -32,7 +32,7 @@
             this.leftDie1Pic = new System.Windows.Forms.PictureBox();
             this.leftDie2Pic = new System.Windows.Forms.PictureBox();
             this.rollButton = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.exitButton = new System.Windows.Forms.Button();
             this.leftDie3Pic = new System.Windows.Forms.PictureBox();
             this.leftDie4Pic = new System.Windows.Forms.PictureBox();
             this.leftDie5Pic = new System.Windows.Forms.PictureBox();
@@ -87,14 +87,15 @@
             this.rollButton.UseVisualStyleBackColor = true;
             this.rollButton.Click += new System.EventHandler(this.rollButton_Click);
             // 
-            // button2
+            // exitButton
             // 
-            this.button2.Location = new System.Drawing.Point(157, 194);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.exitButton.Location = new System.Drawing.Point(157, 194);
+            this.exitButton.Name = "exitButton";
+            this.exitButton.Size = new System.Drawing.Size(75, 23);
+            this.exitButton.TabIndex = 3;
+            this.exitButton.Text = "Exit";
+            this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.button2_Click);
             // 
             // leftDie3Pic
             // 
@@ -191,6 +192,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Lime;
             this.ClientSize = new System.Drawing.Size(284, 262);
             this.Controls.Add(this.rightDie6Pic);
             this.Controls.Add(this.rightDie5Pic);
@@ -202,7 +204,7 @@
             this.Controls.Add(this.leftDie5Pic);
             this.Controls.Add(this.leftDie4Pic);
             this.Controls.Add(this.leftDie3Pic);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.exitButton);
             this.Controls.Add(this.rollButton);
             this.Controls.Add(this.leftDie2Pic);
             this.Controls.Add(this.leftDie1Pic);
@@ -230,7 +232,7 @@
         private System.Windows.Forms.PictureBox leftDie1Pic;
         private System.Windows.Forms.PictureBox leftDie2Pic;
         private System.Windows.Forms.Button rollButton;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button exitButton;
         private System.Windows.Forms.PictureBox leftDie3Pic;
         private System.Windows.Forms.PictureBox leftDie4Pic;
         private System.Windows.Forms.PictureBox leftDie5Pic;

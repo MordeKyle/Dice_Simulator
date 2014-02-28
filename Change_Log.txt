@@ -1,4 +1,12 @@
 ﻿												***CHANGE LOG***
+Version: 1.02 Confused Robin
+02/28/2014 @ 16:33
+•removed left and right randoms, replaced with signle random "rand"
+	fixed problem of always rolling the same random number
+•fixed name and text of exit button
+•created click handeler for exit button
+	this.close();
+•changed background color on form
 Version: 1.01 Learning Robin
 02/28/2014 @ 15:03
 •created "Resources" folder in directory
@@ -8,7 +16,8 @@ Version: 1.01 Learning Robin
 •added pictures of dice to right side "rightDie#Pic"
 •created 2 randoms
 •created cases to handle random numbers
-**random numbers are always the same on both side
+***Problems***
+•random numbers are always the same on both side
 
 Version: 1.0 Uneducated Robin
 02/28/2014 @ 14:56

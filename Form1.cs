@@ -32,12 +32,11 @@ namespace Dice_Simulator
                 int rightRand;
 
                 //creating randoms
-                Random left = new Random();
-                Random right = new Random();
+                Random rand = new Random();
 
                 //getting random numbers and assigning them to variables
-                leftRand = left.Next(6) + 1;
-                rightRand = right.Next(6) + 1;
+                leftRand = rand.Next(6) + 1;
+                rightRand = rand.Next(6) + 1;
 
                 //hiding the pictures
                 leftDie1Pic.Visible = false;
@@ -102,6 +101,11 @@ namespace Dice_Simulator
 
                 MessageBox.Show(ex.Message);
             }
+        }
+        //exit button
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
