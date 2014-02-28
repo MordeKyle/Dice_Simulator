@@ -1,4 +1,15 @@
 ﻿												***CHANGE LOG***
+Version: 1.01 Learning Robin
+02/28/2014 @ 15:03
+•created "Resources" folder in directory
+	added dice images and Mk2 icon
+•changed form text and icon on form
+•added pictures of dice to left side "leftDie#Pic"
+•added pictures of dice to right side "rightDie#Pic"
+•created 2 randoms
+•created cases to handle random numbers
+**random numbers are always the same on both side
+
 Version: 1.0 Uneducated Robin
 02/28/2014 @ 14:56
 •created repository
