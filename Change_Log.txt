@@ -1,4 +1,10 @@
-﻿												***CHANGE LOG***
+﻿***CHANGE LOG***
+
+Version: 1.03 Accomplished Robin
+02/06/2014 @ 11:00
+•changed header comment to /* instead of //. Looks cleaner.
+
+
 Version: 1.02 Confused Robin
 02/28/2014 @ 16:33
 •removed left and right randoms, replaced with signle random "rand"
@@ -7,6 +13,7 @@ Version: 1.02 Confused Robin
 •created click handeler for exit button
 	this.close();
 •changed background color on form
+
 Version: 1.01 Learning Robin
 02/28/2014 @ 15:03
 •created "Resources" folder in directory
